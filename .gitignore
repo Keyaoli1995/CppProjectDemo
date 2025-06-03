@@ -361,3 +361,57 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+# vscode ignore file
+# --- 构建系统生成文件 ---
+# CMake 生成文件
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+Makefile
+*.ninja
+.xcworkspace/
+
+# --- 编译输出 ---
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+*.slo
+*.lo
+*.ilk
+*.pdb
+*.ipch
+*.exp
+
+# --- IDE 和编辑器配置 ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj*
+*.vc.db
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
+
+# --- 依赖目录 ---
+deps/
+third_party/
